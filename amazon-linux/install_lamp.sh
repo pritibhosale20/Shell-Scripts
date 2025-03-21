@@ -21,7 +21,7 @@ systemctl start mariadb
 systemctl enable mariadb
 
 echo "Install PHP and required modules"
-yum install -y php, php-fpm php-mysqlnd
+yum install -y php php-fpm php-mysqlnd
 
 echo "Start and enable php-fpm"
 sudo systemctl start php-fpm
